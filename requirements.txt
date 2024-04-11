@@ -8,3 +8,4 @@ PyPDF2
 langchain_google_genai
 streamlit_chat
 langchain_experimental
+openai
