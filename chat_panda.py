@@ -61,7 +61,7 @@ if uploaded_file:
 
 openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
 if "messages" not in st.session_state or st.sidebar.button("Clear conversation history"):
-    st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
+    st.session_state["messages"] = [{"role": "assistant", "content": "How can I assist you today?"}]
 
 for msg in st.session_state.messages:
     st.chat_message(msg["role"]).write(msg["content"])
