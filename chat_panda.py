@@ -41,8 +41,8 @@ def load_data(uploaded_file):
         return None
 
 
-st.set_page_config(page_title="LangChain: Chat with pandas DataFrame", page_icon="🦜")
-st.title("🦜 LangChain: Chat with pandas DataFrame")
+st.set_page_config(page_title="ABC Bank Chat Bot", page_icon="🦜")
+st.title("🦜 ABC Bank Chat Bot")
 
 uploaded_file = st.file_uploader(
     "Upload a Data file",
