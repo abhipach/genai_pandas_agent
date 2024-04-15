@@ -7,6 +7,11 @@ import pandas as pd
 import os
 import textwrap
 
+from dotenv import load_dotenv, find_dotenv
+_ = load_dotenv(find_dotenv())
+
+openai.api_key=os.getenv("OPENAI_API_KEY")
+
 
 def clear_submit():
     """
@@ -42,7 +47,7 @@ df =df2
 print(df)
 #openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
 
-openai_api_key = "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"
+#openai_api_key = "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"
 customer_name="Abhishek"
 
 if "messages" not in st.session_state or st.sidebar.button("Clear conversation history"):
