@@ -45,9 +45,7 @@ df =df2
 
 
 print(df)
-#openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
 
-#openai_api_key = "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"
 customer_name="Abhishek"
 
 if "messages" not in st.session_state or st.sidebar.button("Clear conversation history"):
