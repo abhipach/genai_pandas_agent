@@ -32,7 +32,7 @@ st.set_page_config(page_title="Mangalyaan Chatbot", page_icon="🤖")
 st.title("Customer Support ChatBot🤖")
 
 #df1 = pd.read_csv("F:\\Virtusa_Gen_AI_Hackathon\\Pandas_Agent\\bankingpaymentsFAQqueries.csv")
-df2 = pd.read_csv("F:\\Virtusa_Gen_AI_Hackathon\\Pandas_Agent\\bankingpaymentsFAQ.csv")
+df2 = pd.read_csv("bankingpaymentsFAQ.csv")
 df =df2
 #if df1 is not None and df2 is not None:
     #df = df1.to_string(index=False) + '\n' + df2.to_string(index=False)
