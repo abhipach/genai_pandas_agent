@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 os.getenv("OPENAI_API_KEY")
-aoenai.configure(api_key=os.getenv("OPENAI_API_KEY"))
+openai.configure(api_key=os.getenv("OPENAI_API_KEY"))
 
 
 def clear_submit():
