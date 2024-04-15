@@ -8,13 +8,6 @@ import os
 import textwrap
 from dotenv import load_dotenv
 
-load_dotenv()
-
-# Access the OpenAI API key securely from the environment
-api_key = os.getenv("OPENAI_API_KEY")
-
-openai_api_key=api_key
-
 
 def clear_submit():
     """
