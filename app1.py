@@ -6,11 +6,11 @@ import streamlit as st
 import pandas as pd
 import os
 import textwrap
+from dotenv import load_dotenv
 
-from dotenv import load_dotenv, find_dotenv
-_ = load_dotenv(find_dotenv())
-
-openai.api_key=os.getenv("OPENAI_API_KEY")
+load_dotenv()
+os.getenv("OPENAI_API_KEY")
+aoenai.configure(api_key=os.getenv("OPENAI_API_KEY"))
 
 
 def clear_submit():
