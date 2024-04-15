@@ -12,6 +12,11 @@ load_dotenv()
 os.getenv("OPENAI_API_KEY")
 openai.configure(api_key=os.getenv("OPENAI_API_KEY"))
 
+# Access the OpenAI API key securely from the environment
+api_key = os.getenv("OPENAI_API_KEY")
+
+openai_api_key=api_key
+
 
 def clear_submit():
     """
