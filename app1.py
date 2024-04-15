@@ -9,8 +9,6 @@ import textwrap
 from dotenv import load_dotenv
 
 load_dotenv()
-os.getenv("OPENAI_API_KEY")
-openai.configure(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Access the OpenAI API key securely from the environment
 api_key = os.getenv("OPENAI_API_KEY")
